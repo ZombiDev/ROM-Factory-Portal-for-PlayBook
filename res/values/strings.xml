@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ROM Factory Portal</string>
+    <string name="portal">Portal</string>
+    <string name="forum">Forum</string>
+    <string name="mantis">Bug Tracker</string>
+    <string name="repo">Repository</string>
+    
+</resources>

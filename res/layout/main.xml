@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/wwwHolder"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical" >
+
+        <WebView
+            android:id="@+id/wwwFrontEnd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonHolder"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btPortal"
+            android:onClick="Portal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/portal" />
+
+        <Button
+            android:id="@+id/btForum"
+            android:onClick="Forum"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/forum" />
+
+        <Button
+            android:id="@+id/btMantis"
+            android:onClick="Mantis"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mantis" />
+
+        <Button
+            android:id="@+id/btRepo"
+            android:onClick="Repo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/repo" />
+
+    </LinearLayout>
+
+</LinearLayout>
